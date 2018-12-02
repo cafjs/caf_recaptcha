@@ -1,0 +1,37 @@
+{
+    "name": "top",
+    "env" : {
+        "appProtocol" : "http",
+        "appPublisher" :"root",
+        "appLocalName" : "recaptcha",
+        "appSuffix" : "vcap.me:3000"
+    },
+    "components": [
+        {
+            "name": "log",
+            "env" : {
+                  "logLevel" : "DEBUG"
+
+            }
+
+        },
+        {
+            "name": "security",
+            "module": null
+        },
+        {
+            "name": "cp2"
+        },
+        {
+            "name": "recaptcha",
+            "module": "../../index.js#plug",
+            "description": "ReCaptcha validation service.",
+            "env" : {
+
+                "keysDir" : null,
+                "privateKeyFile" : "reCaptcha_priv",
+                "publicKeyFile" : "reCaptcha_pub"
+            }
+        }
+    ]
+}
