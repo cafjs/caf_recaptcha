@@ -1,7 +1,7 @@
 {
   "name": "caf_recaptcha",
-  "description": "Cloud Assistants lib for cross-application interactions",
-  "version": "0.3.1",
+  "description": "Cloud Assistants lib for recaptcha service",
+  "version": "0.3.2",
   "author": "Antonio Lain <antlai@cafjs.com>",
   "dependencies": {
       "caf_components" : "^0.3.0",
