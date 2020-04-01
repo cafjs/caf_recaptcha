@@ -1,16 +1,14 @@
-# CAF.js (Cloud Assistant Framework)
+# Caf.js
 
 Co-design permanent, active, stateful, reliable cloud proxies with your web app and gadgets.
 
-See http://www.cafjs.com
+See https://www.cafjs.com
 
-## CAF lib recaptcha token validation
+## Library for Recaptcha Token Validation
 
 [![Build Status](https://travis-ci.org/cafjs/caf_recaptcha.svg?branch=master)](https://travis-ci.org/cafjs/caf_recaptcha)
 
-This repository contains a CAF library that validates recaptcha tokens with a cloud service.
-
-
+This repository contains a `Caf.js` library that validates recaptcha tokens with a cloud service.
 
 ## API
 
