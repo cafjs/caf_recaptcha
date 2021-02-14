@@ -1,14 +1,16 @@
 {
-  "name": "caf_recaptcha",
-  "description": "Cloud Assistants lib for recaptcha service",
-  "version": "0.4.0",
-  "author": "Antonio Lain <antlai@cafjs.com>",
+    "name": "caf_recaptcha",
+    "description": "Cloud Assistants lib for recaptcha service",
+    "version": "0.4.0",
+    "author": "Antonio Lain <antlai@cafjs.com>",
     "license": "Apache-2.0",
-  "dependencies": {
-      "caf_components" : "^0.4.0",
-      "caf_transport" : "^0.4.0",
-      "recaptcha2" : "^1.3.3"
-  },
+    "dependencies": {
+        "caf_components" : "^0.4.0",
+        "caf_transport" : "^0.4.0"
+    },
+    "optionalDependencies": {
+        "recaptcha2" : "^1.3.3"
+    },
     "devDependencies": {
         "grecaptcha" : "^1.0.3",
         "eslint": "^6.8.0",
