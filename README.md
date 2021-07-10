@@ -6,7 +6,7 @@ See https://www.cafjs.com
 
 ## Library for Recaptcha Token Validation
 
-[![Build Status](https://travis-ci.org/cafjs/caf_recaptcha.svg?branch=master)](https://travis-ci.org/cafjs/caf_recaptcha)
+[![Build Status](https://github.com/cafjs/caf_recaptcha/actions/workflows/push.yml/badge.svg)](https://github.com/cafjs/caf_recaptcha/actions/workflows/push.yml)
 
 This repository contains a `Caf.js` library that validates recaptcha tokens with a cloud service.
 
