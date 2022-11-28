@@ -59,7 +59,7 @@ module.exports = {
         async.series(
             [
                 function(cb) {
-                    s1 = new cli.Session('ws://root-recaptcha.vcap.me:3000',
+                    s1 = new cli.Session('ws://root-recaptcha.localtest.me:3000',
                                          from1, {
                                              from : from1
                                          });
